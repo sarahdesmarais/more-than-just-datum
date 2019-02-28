@@ -1,3 +1,15 @@
 html {
   font-family: IBM Plex Sans, sans-serif;
 }
+
+.img-flex {
+  max-width: 200px;
+}
+
+header {
+  background-color: #ddd;
+}
+
+.sidebar {
+  background-color: #efefef;
+}
