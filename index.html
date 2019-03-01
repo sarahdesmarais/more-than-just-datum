@@ -12,8 +12,19 @@
 <body>
 
   <header>
-    <img class="img-flex" src="images/logo.svg" alt="logo">
-    <form></form>
+    <div class="grid">
+      <div class="unit">
+        <img class="img-flex" src="images/logo.svg" alt="logo">
+      </div>
+      <div class="unit">
+        <form>
+          <div>
+            <label for="search"><img class="icon i-16" src="images/search.svg" alt="search"></label>
+            <input id="search" name="search" required>
+          </div>
+        </form>
+      </div>
+    </div>
   </header>
 
   <main class="grid">
@@ -44,7 +55,7 @@
       </div>
     </div>
 
-    <div class="unit">
+    <div class="unit table-wrapper scrollable">
       <table>
         <caption class="mega bold not-italic">Playground in the city</caption>
         <thead>
