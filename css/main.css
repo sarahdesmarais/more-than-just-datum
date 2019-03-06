@@ -1,8 +1,8 @@
 html {
-  font-family: IBM Plex Sans, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-.img-flex {
+.logo {
   max-width: 200px;
 }
 
@@ -12,6 +12,14 @@ header {
 
 .sidebar {
   background-color: #efefef;
+}
+
+.white {
+  background-color: #fff;
+}
+
+table {
+  min-width: 45em;
 }
 
 @media only screen and (min-width: 60em) {
